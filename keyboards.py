@@ -19,3 +19,8 @@ deal_category = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Аренда переговорных комнат', callback_data='book_negotiations_room')],
     [InlineKeyboardButton(text='Отправить документы на сделку', callback_data='send_documents')]
 ])
+
+other_services = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='Услуги, связанные со сделкой', callback_data='deal_services')],
+    [InlineKeyboardButton(text='Прочее', callback_data='other_ones')]
+])
