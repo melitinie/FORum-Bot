@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 async def bot_main():
-    bot = Bot(token="7941402050:AAHQWbIr6FxAlMNnmYTy0_QMd75jsjmFXsM",
+    bot = Bot(token="",
               default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher()
     await DataBase.DataBase_start()
